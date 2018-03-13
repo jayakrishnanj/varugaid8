@@ -1,7 +1,7 @@
 project:
   machine_name: varugaid8
-  prefix: BLT
-  human_name: 'BLTed 8'
+  prefix: HVP
+  human_name: 'Hackathon Varugai Project'
   profile:
     name: lightning
   local:
@@ -9,7 +9,8 @@ project:
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: master
-  remotes: {  }
+  remotes:
+    - git@github.com:jayakrishnanj/varugaid8.git
 drush:
   aliases:
     remote: '${project.machine_name}.test'
