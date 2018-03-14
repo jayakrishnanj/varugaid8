@@ -85,11 +85,11 @@ php_packages_extra:
 php_xdebug_default_enable: 0
 php_xdebug_coverage_enable: 0
 php_xdebug_cli_disable: yes
-php_xdebug_remote_enable: 1
-php_xdebug_remote_connect_back: 1
+php_xdebug_remote_enable: 0
+php_xdebug_remote_connect_back: 0
 # Use PHPSTORM for PHPStorm, sublime.xdebug for Sublime Text.
 php_xdebug_idekey: PHPSTORM
-php_xdebug_max_nesting_level: 256
+php_xdebug_max_nesting_level: 1000
 php_xdebug_remote_port: "9000"
 php_memory_limit: "512M"
 
