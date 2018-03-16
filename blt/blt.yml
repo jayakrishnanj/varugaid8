@@ -1,7 +1,7 @@
 project:
   machine_name: varugaid8
-  prefix: HVP
-  human_name: 'Hackathon Varugai Project'
+  prefix: CAS
+  human_name: 'Centralized Attendance System'
   profile:
     name: lightning
   local:

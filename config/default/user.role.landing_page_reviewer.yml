@@ -1,0 +1,15 @@
+uuid: c93ab01e-7006-4d13-ba11-98df84928c6a
+langcode: en
+status: true
+dependencies: {  }
+id: landing_page_reviewer
+label: 'Landing page reviewer'
+weight: 5
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any landing_page content'
+  - 'edit any landing_page content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
