@@ -12,6 +12,7 @@ dependencies:
   - admin_toolbar
   - backup_db
   - geolocation
+  - group
 themes:
   - cog
 
