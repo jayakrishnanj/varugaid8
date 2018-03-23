@@ -1,0 +1,6 @@
+local:
+    root: /var/www/varugaid8/docroot
+    uri: 'http://local.varugaid8.com'
+    host: local.varugaid8.com
+    user: vagrant
+    ssh: { options: '-o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key' }

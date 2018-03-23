@@ -1,0 +1,24 @@
+name: 'CAS profile'
+type: profile
+version: 8.x-dev
+core: '8.x'
+dependencies:
+  - restui
+  - hal
+  - basic_auth
+  - jsonapi
+  - schemata
+  - schemata_json_schema
+  - admin_toolbar
+  - backup_db
+  - geolocation
+  - group
+themes:
+  - cog
+
+base profile:
+  name: lightning
+  excluded_dependencies:
+    - lightning_layout
+    - lightning_landing_page
+    - lightning_media
