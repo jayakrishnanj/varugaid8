@@ -10,6 +10,7 @@ dependencies:
   - schemata
   - schemata_json_schema
   - admin_toolbar
+  - backup_db
 themes:
   - cog
 
