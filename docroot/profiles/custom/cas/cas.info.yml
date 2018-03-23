@@ -11,6 +11,7 @@ dependencies:
   - schemata_json_schema
   - admin_toolbar
   - backup_db
+  - geolocation
 themes:
   - cog
 
