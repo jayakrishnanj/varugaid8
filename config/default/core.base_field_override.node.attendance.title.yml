@@ -1,0 +1,18 @@
+uuid: f8bb7b92-0309-4b70-8180-c722103d35dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.attendance
+id: node.attendance.title
+field_name: title
+entity_type: node
+bundle: attendance
+label: 'Region Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

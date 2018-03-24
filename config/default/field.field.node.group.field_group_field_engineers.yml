@@ -1,0 +1,32 @@
+uuid: f325d7dd-7579-4859-937c-75dcdecd02c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_group_field_engineers
+    - node.type.group
+id: node.group.field_group_field_engineers
+field_name: field_group_field_engineers
+entity_type: node
+bundle: group
+label: 'Field Engineers'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: role
+      role:
+        field_engineer: field_engineer
+        administrator: '0'
+        field_officer: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

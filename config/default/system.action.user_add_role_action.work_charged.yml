@@ -1,0 +1,14 @@
+uuid: ad9c9c78-d551-478d-9400-299cc015aaec
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.work_charged
+  module:
+    - user
+id: user_add_role_action.work_charged
+label: 'Add the Work Charged role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: work_charged

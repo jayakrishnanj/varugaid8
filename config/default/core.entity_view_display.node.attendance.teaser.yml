@@ -1,0 +1,19 @@
+uuid: 13d3dbaa-2f60-4955-9c6d-54da6e103510
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.attendance
+  module:
+    - user
+id: node.attendance.teaser
+targetEntityType: node
+bundle: attendance
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  scheduled_publication: true

@@ -1,0 +1,35 @@
+uuid: 545289d9-5ec1-4082-8b0f-c603f881d78e
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - geolocation_demo
+  module:
+    - file
+    - image
+    - taxonomy
+_core:
+  default_config_hash: aw4D_9-SCMJs0FKMQ0AkNAss5ivq12cSqMoNK44aVn0
+id: taxonomy_term.field_geolocation_demo_term_icon
+field_name: field_geolocation_demo_term_icon
+entity_type: taxonomy_term
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

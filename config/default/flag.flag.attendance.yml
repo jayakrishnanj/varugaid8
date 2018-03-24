@@ -1,0 +1,30 @@
+uuid: 10c694c9-fe46-4402-a55f-a736db3f253a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: attendance
+label: Attendance
+bundles:
+  - attendance
+entity_type: node
+global: false
+weight: 0
+flag_short: Login
+flag_long: 'Click to add your Attendance'
+flag_message: ''
+unflag_short: Logout
+unflag_long: 'From the field'
+unflag_message: ''
+unflag_denied_text: ''
+flag_type: 'entity:node'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }

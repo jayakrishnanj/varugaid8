@@ -1,0 +1,13 @@
+uuid: e4818408-89e2-4285-8a47-4fa3af00e7bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.attendance.flag
+label: Login
+type: node
+plugin: 'flag_action:attendance.flag'
+configuration:
+  flag_id: attendance
+  flag_action: flag

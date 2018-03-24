@@ -1,0 +1,27 @@
+uuid: 9b62995b-6aec-4b0f-a589-cff361e41ca5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.geolocation_default_article
+  enforced:
+    module:
+      - geolocation_demo
+_core:
+  default_config_hash: AKFq8R7Iw2yVQQZhuPnYSgbhwaG3-e2DLiLMJ5BjyoI
+id: node.geolocation_default_article.promote
+field_name: promote
+entity_type: node
+bundle: geolocation_default_article
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,26 @@
+uuid: 5a54c4c5-dc95-4579-bb62-01c3d5471e66
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:698789d5-5f3f-40bb-bad3-ef7c2d2042d3'
+  module:
+    - entity_embed
+    - image
+    - media
+_core:
+  default_config_hash: ShmiFDMOjYFcwCuRYCxiR3-z-A892AG9cgjMKet5lns
+label: 'Media browser'
+id: media_browser
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles: {  }
+  display_plugins:
+    - 'entity_reference:entity_reference_entity_view'
+    - media_image
+    - 'view_mode:media.embedded'
+  entity_browser: media_browser
+  entity_browser_settings:
+    display_review: false
+icon_uuid: 698789d5-5f3f-40bb-bad3-ef7c2d2042d3

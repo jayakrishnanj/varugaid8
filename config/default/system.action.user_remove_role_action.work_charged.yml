@@ -1,0 +1,14 @@
+uuid: 4434ed76-f906-4876-94f3-f790a9293bc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.work_charged
+  module:
+    - user
+id: user_remove_role_action.work_charged
+label: 'Remove the Work Charged role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: work_charged
