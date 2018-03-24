@@ -1,0 +1,21 @@
+uuid: 1cb3c1e1-784c-409f-bf45-547489f41bd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_field_location
+    - node.type.asign_location
+  module:
+    - geolocation
+id: node.asign_location.field_field_location
+field_name: field_field_location
+entity_type: node
+bundle: asign_location
+label: 'Field Location'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

@@ -1,0 +1,22 @@
+uuid: 31046af9-1277-44cb-89e6-a81b7ccb6b32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.attedence
+  module:
+    - text
+id: node.attedence.body
+field_name: body
+entity_type: node
+bundle: attedence
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

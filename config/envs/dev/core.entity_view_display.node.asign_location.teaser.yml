@@ -1,0 +1,28 @@
+uuid: a297cf35-f22e-4356-ac99-3d708377ea77
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.asign_location.body
+    - node.type.asign_location
+  module:
+    - text
+    - user
+id: node.asign_location.teaser
+targetEntityType: node
+bundle: asign_location
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

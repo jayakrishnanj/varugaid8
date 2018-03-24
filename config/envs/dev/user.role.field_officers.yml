@@ -1,0 +1,9 @@
+uuid: e6daf991-089a-4584-9ebd-f62ba048f031
+langcode: en
+status: true
+dependencies: {  }
+id: field_officers
+label: 'field officers'
+weight: 3
+is_admin: null
+permissions: {  }

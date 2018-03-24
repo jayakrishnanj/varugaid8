@@ -1,0 +1,13 @@
+uuid: 1b785f48-b07a-4def-a38c-6a756aae6369
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - geolocation_demo
+_core:
+  default_config_hash: 5KwOX3Zut5VtmWdrt8eNxIaJkbW_BqtUiD4nalusW0I
+id: geolocation-demo
+label: 'Geolocation Demo'
+description: 'Links to example views and pages'
+locked: false

@@ -1,0 +1,10 @@
+uuid: bcc99fed-7daa-4d86-9f1c-f20cd24eb3d1
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.a
+label: 'admin view'
+targetEntityType: user
+cache: true

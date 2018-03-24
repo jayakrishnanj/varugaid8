@@ -1,0 +1,21 @@
+uuid: 34e705f8-a9f2-4f2c-88e4-7078b2c5b8c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.attedence
+  module:
+    - geolocation
+id: node.attedence.field_location
+field_name: field_location
+entity_type: node
+bundle: attedence
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation
