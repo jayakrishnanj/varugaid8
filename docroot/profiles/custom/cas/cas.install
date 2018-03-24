@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall hooks for the Lightning Extender subprofile.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function cas_install() {
+  $modules = [
+    "breakpoint",
+  ];
+  foreach ($modules as $module) {
+    \Drupal::service('module_installer')->install([$module]);
+  }
+}
