@@ -11,6 +11,7 @@ git:
   default_branch: master
   remotes:
     - git@github.com:jayakrishnanj/varugaid8.git
+    - ssh://dh_makxr4@ps530449.dreamhostps.com/home/dh_makxr4/cas.git
 drush:
   aliases:
     remote: '${project.machine_name}.test'
