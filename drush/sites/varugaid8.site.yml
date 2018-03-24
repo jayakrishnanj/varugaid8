@@ -4,3 +4,12 @@ local:
     host: local.varugaid8.com
     user: vagrant
     ssh: { options: '-o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key' }
+live:
+   host: ps530449.dreamhostps.com
+   user: dh_makxr4
+   root: /home/dh_makxr4/cas/docroot
+   uri: http://varugai.thedrupaler.com/
+   ssh:
+     options: '-o PasswordAuthentication=no -i /home/vagrant/.ssh/id_rsa'
+   paths:
+     drush-script: '/home/dh_makxr4/cas/vendor/drush/drush/drush'
