@@ -13,7 +13,7 @@ dependencies:
   - backup_db
   - geolocation
 themes:
-  - cog
+  - bootstrap
 
 base profile:
   name: lightning
