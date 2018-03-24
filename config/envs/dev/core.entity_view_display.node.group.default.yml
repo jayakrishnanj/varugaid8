@@ -1,0 +1,35 @@
+uuid: da2ab626-5feb-4992-8d46-818afd4a8bed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.group.body
+    - field.field.node.group.field_field_officer_name
+    - node.type.group
+  module:
+    - text
+    - user
+id: node.group.default
+targetEntityType: node
+bundle: group
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_field_officer_name:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

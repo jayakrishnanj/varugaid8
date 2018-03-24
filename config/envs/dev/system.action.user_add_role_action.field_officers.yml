@@ -1,0 +1,14 @@
+uuid: 8d6bf058-2932-4cd5-bc31-ef5b82aea884
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.field_officers
+  module:
+    - user
+id: user_add_role_action.field_officers
+label: 'Add the field officers role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: field_officers

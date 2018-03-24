@@ -1,0 +1,18 @@
+uuid: fb93c844-51a4-45b5-ae04-4a55992d3bc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.attedence
+id: node.attedence.title
+field_name: title
+entity_type: node
+bundle: attedence
+label: location
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

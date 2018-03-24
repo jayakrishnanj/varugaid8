@@ -1,0 +1,20 @@
+uuid: 27eb61e1-f234-4d52-a240-59f7be315dfd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+id: node.field_field_officer
+field_name: field_field_officer
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

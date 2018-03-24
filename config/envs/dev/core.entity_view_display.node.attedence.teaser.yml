@@ -1,0 +1,28 @@
+uuid: dce59ae6-91e0-4696-94be-635318192f1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.attedence.body
+    - node.type.attedence
+  module:
+    - text
+    - user
+id: node.attedence.teaser
+targetEntityType: node
+bundle: attedence
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

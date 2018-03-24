@@ -1,0 +1,14 @@
+uuid: e3b60877-650a-4020-ada9-1d2a7bd2fd49
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.field_engineers
+  module:
+    - user
+id: user_remove_role_action.field_engineers
+label: 'Remove the field engineers role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: field_engineers

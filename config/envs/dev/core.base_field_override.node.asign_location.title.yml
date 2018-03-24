@@ -1,0 +1,18 @@
+uuid: 6612a703-957c-428b-8350-a752b1a45502
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.asign_location
+id: node.asign_location.title
+field_name: title
+entity_type: node
+bundle: asign_location
+label: 'Filed Officer'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

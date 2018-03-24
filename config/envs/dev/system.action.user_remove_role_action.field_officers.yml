@@ -1,0 +1,14 @@
+uuid: 7783d4a2-ac58-4d22-86b4-2042f7dce8d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.field_officers
+  module:
+    - user
+id: user_remove_role_action.field_officers
+label: 'Remove the field officers role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: field_officers

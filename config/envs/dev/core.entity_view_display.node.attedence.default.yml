@@ -1,0 +1,57 @@
+uuid: b283cf11-8fb1-48e0-907c-1300e7a01733
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.attedence.body
+    - field.field.node.attedence.field_location
+    - field.field.node.attedence.field_time_in
+    - field.field.node.attedence.field_time_out
+    - node.type.attedence
+  module:
+    - geolocation
+    - text
+    - user
+id: node.attedence.default
+targetEntityType: node
+bundle: attedence
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_location:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
+    region: content
+  field_time_in:
+    weight: 103
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
+    region: content
+  field_time_out:
+    weight: 104
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

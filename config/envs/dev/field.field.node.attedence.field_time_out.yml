@@ -1,0 +1,21 @@
+uuid: 1511e750-94f7-4205-922a-8114785ab0e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time_out
+    - node.type.attedence
+id: node.attedence.field_time_out
+field_name: field_time_out
+entity_type: node
+bundle: attedence
+label: 'Time Out'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1521819557
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

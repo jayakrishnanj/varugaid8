@@ -1,0 +1,21 @@
+uuid: 433e322d-ebca-40b5-bc93-f113f0d1ec3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time_in
+    - node.type.attedence
+id: node.attedence.field_time_in
+field_name: field_time_in
+entity_type: node
+bundle: attedence
+label: 'Time In'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1521819506
+default_value_callback: ''
+settings: {  }
+field_type: timestamp
