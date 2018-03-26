@@ -1,0 +1,14 @@
+uuid: 68add603-2f67-4f92-b370-9efd3e63f0e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.api_provider
+  module:
+    - user
+id: user_add_role_action.api_provider
+label: 'Add the api_provider role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: api_provider

@@ -1,4 +1,4 @@
-uuid: f576fef6-54fc-426b-8f06-94aeb6e0cca6
+uuid: c83e5b7f-1039-4e54-a825-d4c65ecb4b16
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,12 @@ dependencies:
 third_party_settings:
   lightning_core:
     description: ''
-id: field_officer
-label: 'Field Officer'
-weight: 3
+id: api_provider
+label: api_provider
+weight: 6
 is_admin: null
 permissions:
   - 'create attendance content'
   - 'edit own attendance content'
   - 'flag attendance'
+  - 'restful post user_registration'

@@ -11,4 +11,7 @@ id: work_charged
 label: 'Work Charged'
 weight: 5
 is_admin: null
-permissions: {  }
+permissions:
+  - 'create attendance content'
+  - 'edit own attendance content'
+  - 'flag attendance'
