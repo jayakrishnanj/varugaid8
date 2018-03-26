@@ -11,11 +11,11 @@ bundles:
 entity_type: node
 global: false
 weight: 0
-flag_short: Login
+flag_short: Present
 flag_long: 'Click to add your Attendance'
-flag_message: ''
-unflag_short: Logout
-unflag_long: 'From the field'
+flag_message: 'Thank you, your attendance is added now.'
+unflag_short: 'Cancel Attendance'
+unflag_long: ''
 unflag_message: ''
 unflag_denied_text: ''
 flag_type: 'entity:node'

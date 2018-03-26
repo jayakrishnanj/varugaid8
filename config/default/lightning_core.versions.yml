@@ -102,3 +102,4 @@ flag: 4.0.0-alpha3
 flag_bookmark: 0.0.0
 auto_entitylabel: 2.1.0-beta1
 action: 0.0.0
+geocoder: 2.0.0-beta3

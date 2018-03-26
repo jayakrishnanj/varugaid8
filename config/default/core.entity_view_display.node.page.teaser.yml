@@ -30,4 +30,6 @@ content:
   links:
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  field_meta_tags: true
+  scheduled_publication: true

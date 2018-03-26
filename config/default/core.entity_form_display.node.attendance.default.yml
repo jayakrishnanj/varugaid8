@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.attendance.field_add_employee
+    - field.field.node.attendance.field_login_location
     - field.field.node.attendance.field_work_location
     - node.type.attendance
   module:
@@ -18,7 +19,7 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 4
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -28,8 +29,14 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
-  field_work_location:
+  field_login_location:
     weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_html5
+    region: content
+  field_work_location:
+    weight: 3
     settings:
       populate_address_field: ''
       target_address_field: null
@@ -65,13 +72,13 @@ content:
     region: content
   moderation_state:
     type: moderation_state_default
-    weight: 9
+    weight: 10
     settings: {  }
     region: content
     third_party_settings: {  }
   path:
     type: path
-    weight: 8
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -79,12 +86,12 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 5
+    weight: 6
     region: content
     third_party_settings: {  }
   scheduled_publication:
     type: datetime_default
-    weight: 7
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -92,14 +99,14 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 10
+    weight: 11
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 6
+    weight: 7
     region: content
     third_party_settings: {  }
   title:
@@ -112,7 +119,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 3
+    weight: 4
     settings:
       match_operator: CONTAINS
       size: 60

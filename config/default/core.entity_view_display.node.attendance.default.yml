@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.attendance.field_add_employee
+    - field.field.node.attendance.field_login_location
     - field.field.node.attendance.field_work_location
     - node.type.attendance
   module:
@@ -22,6 +23,13 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
+  field_login_location:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
+    region: content
   field_work_location:
     weight: 101
     label: above
@@ -36,18 +44,18 @@ content:
         zoom: '18'
         maxZoom: 18
         minZoom: 11
-        zoomControl: 1
         gestureHandling: auto
-        disableDoubleClickZoom: 1
+        draggable: 1
         style: ''
         marker_icon_path: ''
         mapTypeControl: 0
         streetViewControl: 0
+        zoomControl: 0
         rotateControl: 0
         fullscreenControl: 0
         scrollwheel: 0
-        draggable: 0
         preferScrollingToZooming: 0
+        disableDoubleClickZoom: 0
         info_auto_display: 0
         disableAutoPan: 0
       use_overridden_map_settings: 0
