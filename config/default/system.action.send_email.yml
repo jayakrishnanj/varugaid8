@@ -1,0 +1,14 @@
+uuid: 5c8098e9-c0ec-4f8c-b05e-c71b06ef12d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - action
+id: send_email
+label: 'Send email'
+type: system
+plugin: action_send_email_action
+configuration:
+  recipient: '[node:field_add_employee:entity:mail]'
+  subject: 'Please visit [node:nid]'
+  message: '[node:url]'

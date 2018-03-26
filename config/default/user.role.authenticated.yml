@@ -1,4 +1,4 @@
-uuid: e1430892-7e45-4a71-aed7-dde56462f275
+uuid: 3922615f-0a1c-4093-b08e-7a84a2914310
 langcode: en
 status: true
 dependencies: {  }
@@ -10,8 +10,6 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
-  - 'access openapi api docs'
   - 'access shortcuts'
   - 'access site-wide contact form'
-  - 'restful post user_registration'
   - 'view media'

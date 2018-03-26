@@ -43,7 +43,7 @@ class SyncCommand extends BltTasks {
    * for each multisite.
    *
    * @command drupal:sync:default:site
-   * @aliases ds drupal:sync:default sync sync:refresh
+   * @aliases ds drupal:sync drupal:sync:default sync sync:refresh
    * @executeInVm
    */
   public function sync($options = [
@@ -137,6 +137,9 @@ class SyncCommand extends BltTasks {
       ->drush('sql-sync')
       ->arg($remote_alias)
       ->arg($local_alias)
+      // @see https://github.com/drush-ops/drush/releases/tag/9.2.1
+      // @see https://github.com/acquia/blt/issues/2641
+      ->option('--source-dump', sys_get_temp_dir() . '/tmp.sql')
       ->option('structure-tables-key', 'lightweight')
       ->option('create-db');
 
@@ -144,7 +147,7 @@ class SyncCommand extends BltTasks {
       $task->drush('sql-sanitize');
     }
 
-    $task->drush('cache-clear drush');
+    $task->drush('cr');
     $task->drush('sqlq "TRUNCATE cache_entity"');
 
     $result = $task->run();

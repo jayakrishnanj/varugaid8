@@ -1,4 +1,4 @@
-uuid: 71313d0b-69c9-4ea7-9305-fabfb313958c
+uuid: 523dd21f-f41b-407b-b07e-e205dd4fa893
 langcode: en
 status: true
 dependencies:
@@ -78,7 +78,9 @@ display:
           view_modes:
             'entity:node':
               page: teaser
-              landing_page: teaser
+              group: default
+              attendance: default
+              geolocation_default_article: default
       fields:
         rendered:
           table: search_api_index_content

@@ -1,10 +1,9 @@
-uuid: f381cfd7-5015-4e64-b70e-580710422ec0
+uuid: f7732983-1e0a-42e0-a450-ff1556197f3d
 langcode: en
 status: true
 dependencies:
   config:
     - search_api.server.database
-    - core.entity_view_mode.node.full
   module:
     - search_api
     - node
@@ -25,7 +24,9 @@ field_settings:
       view_mode:
         'entity:node':
           page: default
-          landing_page: full
+          group: default
+          attendance: default
+          geolocation_default_article: default
   label:
     label: Label
     property_path: aggregated_field

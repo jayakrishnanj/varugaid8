@@ -1,0 +1,33 @@
+uuid: bb3eb07a-6fb7-424b-b467-2be20df4b23a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_add_employee
+    - node.type.attendance
+id: node.attendance.field_add_employee
+field_name: field_add_employee
+entity_type: node
+bundle: attendance
+label: 'Add Employee'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: role
+      role:
+        field_engineer: field_engineer
+        work_charged: work_charged
+        administrator: '0'
+        field_officer: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

@@ -1,4 +1,4 @@
-uuid: 3df2deec-6daa-4a71-9d96-f2296e0269ab
+uuid: 4827b785-9bd0-469a-bbac-0ff2de32ee87
 langcode: en
 status: true
 dependencies:
@@ -32,5 +32,4 @@ content:
     region: content
 hidden:
   field_meta_tags: true
-  panelizer: true
   scheduled_publication: true

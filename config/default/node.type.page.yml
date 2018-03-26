@@ -1,17 +1,14 @@
-uuid: 3be12676-b7f0-49af-beef-d9c9c72c8630
+uuid: 5643fd16-4d91-4350-b7e0-72a5c6eb42bb
 langcode: en
 status: true
 dependencies:
   module:
-    - lightning_workflow
     - menu_ui
 third_party_settings:
   menu_ui:
     available_menus:
       - main
     parent: 'main:'
-  lightning_workflow:
-    workflow: editorial
 _core:
   default_config_hash: 8abAOu9EvOLXTTAq-uEdWO5pTFbSx-OVxt4HY5Rh3tw
 name: 'Basic page'

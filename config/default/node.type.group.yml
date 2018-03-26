@@ -1,0 +1,17 @@
+uuid: e11f3711-ed9f-472b-a1c5-773e37fb0dcb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Group
+type: group
+description: 'This content type will be used to group the field engineers under one field officers.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

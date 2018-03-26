@@ -1,0 +1,14 @@
+uuid: 96e772bf-dad2-4eeb-af91-80639d8c54fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.field_engineer
+  module:
+    - user
+id: user_add_role_action.field_engineer
+label: 'Add the Field Engineer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: field_engineer

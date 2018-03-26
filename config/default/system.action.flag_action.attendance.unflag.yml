@@ -1,0 +1,13 @@
+uuid: 592097eb-92fc-490e-b6ca-8681df6150e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.attendance.unflag
+label: Logout
+type: node
+plugin: 'flag_action:attendance.unflag'
+configuration:
+  flag_id: attendance
+  flag_action: unflag

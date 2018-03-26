@@ -1,0 +1,14 @@
+uuid: 4e4823f4-c296-4860-a95e-f730a4530394
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    internal: true
+id: crop.token
+label: Token
+targetEntityType: crop
+cache: true

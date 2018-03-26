@@ -1,0 +1,14 @@
+uuid: c1665ae7-243c-416f-b63b-922930b56a96
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: ''
+id: field_engineer
+label: 'Field Engineer'
+weight: 4
+is_admin: null
+permissions: {  }

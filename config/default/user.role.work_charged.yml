@@ -1,0 +1,14 @@
+uuid: 53227e81-9472-4cfa-a303-82d0f9d3cf80
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: ''
+id: work_charged
+label: 'Work Charged'
+weight: 5
+is_admin: null
+permissions: {  }

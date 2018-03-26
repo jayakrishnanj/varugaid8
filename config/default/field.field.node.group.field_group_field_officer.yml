@@ -1,0 +1,32 @@
+uuid: c90d7cd9-46a8-4993-b940-12df40c7beb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_group_field_officer
+    - node.type.group
+id: node.group.field_group_field_officer
+field_name: field_group_field_officer
+entity_type: node
+bundle: group
+label: 'Field Officer'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: role
+      role:
+        field_officer: field_officer
+        administrator: '0'
+        field_engineer: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

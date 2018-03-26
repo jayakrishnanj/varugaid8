@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb7c23d32b853321fe9e85bcf8c840d2b
+class ComposerStaticInitbd248a347e60ae9f27f729d5978a8d9e
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -683,7 +683,6 @@ class ComposerStaticInitb7c23d32b853321fe9e85bcf8c840d2b
         'Acquia\\Blt\\Robo\\Commands\\Generate\\ConfigSplitCommand' => __DIR__ . '/..' . '/acquia/blt/src/Robo/Commands/Generate/ConfigSplitCommand.php',
         'Acquia\\Blt\\Robo\\Commands\\Generate\\MultisiteCommand' => __DIR__ . '/..' . '/acquia/blt/src/Robo/Commands/Generate/MultisiteCommand.php',
         'Acquia\\Blt\\Robo\\Commands\\Git\\GitCommand' => __DIR__ . '/..' . '/acquia/blt/src/Robo/Commands/Git/GitCommand.php',
-        'Acquia\\Blt\\Robo\\Commands\\Input\\ArrayInput' => __DIR__ . '/..' . '/acquia/blt/src/Robo/Commands/Input/ArrayInput.php',
         'Acquia\\Blt\\Robo\\Commands\\Saml\\SimpleSamlPhpCommand' => __DIR__ . '/..' . '/acquia/blt/src/Robo/Commands/Saml/SimpleSamlPhpCommand.php',
         'Acquia\\Blt\\Robo\\Commands\\Setup\\AllCommand' => __DIR__ . '/..' . '/acquia/blt/src/Robo/Commands/Setup/AllCommand.php',
         'Acquia\\Blt\\Robo\\Commands\\Setup\\BuildCommand' => __DIR__ . '/..' . '/acquia/blt/src/Robo/Commands/Setup/BuildCommand.php',
@@ -1007,9 +1006,14 @@ class ComposerStaticInitb7c23d32b853321fe9e85bcf8c840d2b
         'Consolidation\\OutputFormatters\\Exception\\UnknownFormatException' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Exception/UnknownFormatException.php',
         'Consolidation\\OutputFormatters\\FormatterManager' => __DIR__ . '/..' . '/consolidation/output-formatters/src/FormatterManager.php',
         'Consolidation\\OutputFormatters\\Formatters\\CsvFormatter' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/CsvFormatter.php',
+        'Consolidation\\OutputFormatters\\Formatters\\FormatterAwareInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/FormatterAwareInterface.php',
+        'Consolidation\\OutputFormatters\\Formatters\\FormatterAwareTrait' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/FormatterAwareTrait.php',
         'Consolidation\\OutputFormatters\\Formatters\\FormatterInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/FormatterInterface.php',
+        'Consolidation\\OutputFormatters\\Formatters\\HumanReadableFormat' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/HumanReadableFormat.php',
         'Consolidation\\OutputFormatters\\Formatters\\JsonFormatter' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/JsonFormatter.php',
         'Consolidation\\OutputFormatters\\Formatters\\ListFormatter' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/ListFormatter.php',
+        'Consolidation\\OutputFormatters\\Formatters\\MetadataFormatterInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/MetadataFormatterInterface.php',
+        'Consolidation\\OutputFormatters\\Formatters\\MetadataFormatterTrait' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/MetadataFormatterTrait.php',
         'Consolidation\\OutputFormatters\\Formatters\\PrintRFormatter' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/PrintRFormatter.php',
         'Consolidation\\OutputFormatters\\Formatters\\RenderDataInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/RenderDataInterface.php',
         'Consolidation\\OutputFormatters\\Formatters\\RenderTableDataTrait' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/RenderTableDataTrait.php',
@@ -1018,6 +1022,7 @@ class ComposerStaticInitb7c23d32b853321fe9e85bcf8c840d2b
         'Consolidation\\OutputFormatters\\Formatters\\StringFormatter' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/StringFormatter.php',
         'Consolidation\\OutputFormatters\\Formatters\\TableFormatter' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/TableFormatter.php',
         'Consolidation\\OutputFormatters\\Formatters\\TsvFormatter' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/TsvFormatter.php',
+        'Consolidation\\OutputFormatters\\Formatters\\VarDumpFormatter' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/VarDumpFormatter.php',
         'Consolidation\\OutputFormatters\\Formatters\\VarExportFormatter' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/VarExportFormatter.php',
         'Consolidation\\OutputFormatters\\Formatters\\XmlFormatter' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/XmlFormatter.php',
         'Consolidation\\OutputFormatters\\Formatters\\YamlFormatter' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Formatters/YamlFormatter.php',
@@ -1029,6 +1034,10 @@ class ComposerStaticInitb7c23d32b853321fe9e85bcf8c840d2b
         'Consolidation\\OutputFormatters\\StructuredData\\HelpDocument' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/HelpDocument.php',
         'Consolidation\\OutputFormatters\\StructuredData\\ListDataFromKeys' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/ListDataFromKeys.php',
         'Consolidation\\OutputFormatters\\StructuredData\\ListDataInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/ListDataInterface.php',
+        'Consolidation\\OutputFormatters\\StructuredData\\MetadataHolderInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/MetadataHolderInterface.php',
+        'Consolidation\\OutputFormatters\\StructuredData\\MetadataHolderTrait' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/MetadataHolderTrait.php',
+        'Consolidation\\OutputFormatters\\StructuredData\\MetadataInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/MetadataInterface.php',
+        'Consolidation\\OutputFormatters\\StructuredData\\NumericCellRenderer' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/NumericCellRenderer.php',
         'Consolidation\\OutputFormatters\\StructuredData\\OriginalDataInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/OriginalDataInterface.php',
         'Consolidation\\OutputFormatters\\StructuredData\\PropertyList' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/PropertyList.php',
         'Consolidation\\OutputFormatters\\StructuredData\\RenderCellCollectionInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/RenderCellCollectionInterface.php',
@@ -1036,6 +1045,7 @@ class ComposerStaticInitb7c23d32b853321fe9e85bcf8c840d2b
         'Consolidation\\OutputFormatters\\StructuredData\\RenderCellInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/RenderCellInterface.php',
         'Consolidation\\OutputFormatters\\StructuredData\\RestructureInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/RestructureInterface.php',
         'Consolidation\\OutputFormatters\\StructuredData\\RowsOfFields' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/RowsOfFields.php',
+        'Consolidation\\OutputFormatters\\StructuredData\\RowsOfFieldsWithMetadata' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/RowsOfFieldsWithMetadata.php',
         'Consolidation\\OutputFormatters\\StructuredData\\TableDataInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/TableDataInterface.php',
         'Consolidation\\OutputFormatters\\StructuredData\\Xml\\DomDataInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/Xml/DomDataInterface.php',
         'Consolidation\\OutputFormatters\\StructuredData\\Xml\\XmlSchema' => __DIR__ . '/..' . '/consolidation/output-formatters/src/StructuredData/Xml/XmlSchema.php',
@@ -6726,10 +6736,10 @@ class ComposerStaticInitb7c23d32b853321fe9e85bcf8c840d2b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb7c23d32b853321fe9e85bcf8c840d2b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb7c23d32b853321fe9e85bcf8c840d2b::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitb7c23d32b853321fe9e85bcf8c840d2b::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitb7c23d32b853321fe9e85bcf8c840d2b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitbd248a347e60ae9f27f729d5978a8d9e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitbd248a347e60ae9f27f729d5978a8d9e::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitbd248a347e60ae9f27f729d5978a8d9e::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitbd248a347e60ae9f27f729d5978a8d9e::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -10,8 +10,8 @@ dependencies:
   - schemata
   - schemata_json_schema
   - admin_toolbar
-  - backup_db
-  - geolocation
+  - settings_tray
+
 themes:
   - bootstrap
 
@@ -21,3 +21,5 @@ base profile:
     - lightning_layout
     - lightning_landing_page
     - lightning_media
+    - lightning_roles
+    - lightning_workflow

@@ -1,0 +1,17 @@
+uuid: 5afe5c31-1195-4884-bae2-f9ce168e9577
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Attendance
+type: attendance
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

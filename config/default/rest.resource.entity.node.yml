@@ -1,4 +1,4 @@
-uuid: 88e1ba35-2ca9-4a57-a2ac-309f07e4776d
+uuid: 2717b9e3-8965-4f0c-a7f9-2d2a2d90cca3
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,6 @@ dependencies:
     - basic_auth
     - hal
     - node
-    - serialization
-    - user
 _core:
   default_config_hash: t_jfECmZhJqBOJuSOFn87EOi_TWi-_fRYTuJgd19vgg
 id: entity.node
@@ -17,9 +15,9 @@ configuration:
   methods:
     - GET
     - POST
+    - PATCH
+    - DELETE
   formats:
     - hal_json
-    - json
   authentication:
     - basic_auth
-    - cookie

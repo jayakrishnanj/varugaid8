@@ -1,0 +1,14 @@
+uuid: f576fef6-54fc-426b-8f06-94aeb6e0cca6
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: ''
+id: field_officer
+label: 'Field Officer'
+weight: 3
+is_admin: null
+permissions: {  }
