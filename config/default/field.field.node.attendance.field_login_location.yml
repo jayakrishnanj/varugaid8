@@ -1,0 +1,21 @@
+uuid: 2df90278-d85c-4a27-917e-9c29473c86f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_login_location
+    - node.type.attendance
+  module:
+    - geolocation
+id: node.attendance.field_login_location
+field_name: field_login_location
+entity_type: node
+bundle: attendance
+label: 'Login Location'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation
