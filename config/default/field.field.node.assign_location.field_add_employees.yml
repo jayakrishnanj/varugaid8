@@ -1,15 +1,15 @@
-uuid: bb3eb07a-6fb7-424b-b467-2be20df4b23a
+uuid: 0be1fda1-12ea-4db5-bb4d-3c87707a4868
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_add_employee
-    - node.type.attendance
-id: node.attendance.field_add_employee
-field_name: field_add_employee
+    - field.storage.node.field_add_employees
+    - node.type.assign_location
+id: node.assign_location.field_add_employees
+field_name: field_add_employees
 entity_type: node
-bundle: attendance
-label: 'Add Employee'
+bundle: assign_location
+label: 'Add Employees'
 description: ''
 required: false
 translatable: false

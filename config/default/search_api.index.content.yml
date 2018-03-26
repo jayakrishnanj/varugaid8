@@ -27,6 +27,7 @@ field_settings:
           group: default
           attendance: default
           geolocation_default_article: default
+          assign_location: default
   label:
     label: Label
     property_path: aggregated_field

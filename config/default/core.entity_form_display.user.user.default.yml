@@ -1,0 +1,30 @@
+uuid: 0ba93f5d-661e-4d21-94af-62f575e5fa82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_employee_name
+  module:
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_employee_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  contact: true
+  language: true
+  timezone: true
