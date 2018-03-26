@@ -11,4 +11,7 @@ id: field_engineer
 label: 'Field Engineer'
 weight: 4
 is_admin: null
-permissions: {  }
+permissions:
+  - 'create attendance content'
+  - 'edit own attendance content'
+  - 'flag attendance'

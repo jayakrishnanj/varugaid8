@@ -1,0 +1,14 @@
+uuid: cac69a79-fdee-4832-9a2b-407e326558a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.api_provider
+  module:
+    - user
+id: user_remove_role_action.api_provider
+label: 'Remove the api_provider role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: api_provider
