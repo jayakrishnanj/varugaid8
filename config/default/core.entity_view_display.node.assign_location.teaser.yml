@@ -1,0 +1,19 @@
+uuid: 143989ae-09a7-459d-a2fb-ee1160339e48
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.assign_location
+  module:
+    - user
+id: node.assign_location.teaser
+targetEntityType: node
+bundle: assign_location
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  scheduled_publication: true

@@ -1,5 +1,5 @@
 status: '3'
-pattern: '[current-date:html_datetime]'
+pattern: '[current-user:field_employee_name]'
 php: 0
 escape: 0
 dependencies:

@@ -1,0 +1,60 @@
+uuid: 247ece93-3fe8-4026-a12f-2a00a863734f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.assign_location.field_add_employees
+    - field.field.node.assign_location.field_assign_location
+    - node.type.assign_location
+  module:
+    - geolocation
+    - user
+id: node.assign_location.default
+targetEntityType: node
+bundle: assign_location
+mode: default
+content:
+  field_add_employees:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_assign_location:
+    weight: 1
+    label: above
+    settings:
+      set_marker: '1'
+      title: 'Work Location'
+      info_text: ''
+      google_map_settings:
+        height: 400px
+        width: 100%
+        type: ROADMAP
+        zoom: '10'
+        maxZoom: 18
+        minZoom: 0
+        gestureHandling: auto
+        disableDoubleClickZoom: 1
+        style: ''
+        info_auto_display: 1
+        marker_icon_path: ''
+        disableAutoPan: 1
+        mapTypeControl: 0
+        streetViewControl: 0
+        zoomControl: 0
+        rotateControl: 0
+        fullscreenControl: 0
+        scrollwheel: 0
+        draggable: 0
+        preferScrollingToZooming: 0
+      use_overridden_map_settings: 0
+      common_map: ''
+    third_party_settings: {  }
+    type: geolocation_map
+    region: content
+hidden:
+  links: true
+  scheduled_publication: true

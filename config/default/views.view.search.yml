@@ -81,6 +81,7 @@ display:
               group: default
               attendance: default
               geolocation_default_article: default
+              assign_location: default
       fields:
         rendered:
           table: search_api_index_content

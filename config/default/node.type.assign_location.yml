@@ -1,4 +1,4 @@
-uuid: 5afe5c31-1195-4884-bae2-f9ce168e9577
+uuid: b57aaacf-823e-4fac-975d-5bcd105bf84d
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,9 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: Attendance
-type: attendance
-description: 'Employees can log in their work location and attendance'
+name: 'Assign Location'
+type: assign_location
+description: 'Admin Assign location to the list of employees'
 help: ''
 new_revision: false
 preview_mode: 0

@@ -8,7 +8,7 @@ id: node.attendance.title
 field_name: title
 entity_type: node
 bundle: attendance
-label: 'Region Name'
+label: 'Employee Name'
 description: ''
 required: true
 translatable: true
