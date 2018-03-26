@@ -36,7 +36,6 @@ module:
   file: 0
   filter: 0
   flag: 0
-  geocoder: 0
   geolocation: 0
   geolocation_demo: 0
   geolocation_google_places_api: 0
