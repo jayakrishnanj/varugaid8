@@ -104,6 +104,8 @@ xhprof_*
 #Composer vendor
 vendor/
 vendor/.git
+vendor/**/.git
+vendor/**/.gitignore
 
 #Sass
 .sass-cache
