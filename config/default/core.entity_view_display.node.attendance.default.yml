@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.attendance.field_login_location
+    - field.field.node.attendance.field_work_location
+    - field.field.node.attendance.field_work_location1
     - node.type.attendance
   module:
     - geolocation
@@ -14,19 +16,35 @@ bundle: attendance
 mode: default
 content:
   field_login_location:
-    weight: 103
+    weight: 0
     label: above
     settings: {  }
     third_party_settings: {  }
     type: geolocation_latlng
     region: content
+  field_work_location:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_work_location1:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
   flag_attendance:
-    weight: 10
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
   links:
-    weight: 100
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }

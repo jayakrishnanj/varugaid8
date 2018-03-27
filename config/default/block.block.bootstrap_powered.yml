@@ -1,6 +1,6 @@
 uuid: 75fede7f-8094-4478-b781-4d1788d9443a
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: bootstrap_powered
 theme: bootstrap
 region: footer
-weight: -10
+weight: -7
 provider: null
 plugin: system_powered_by_block
 settings:

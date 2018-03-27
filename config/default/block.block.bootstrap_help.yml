@@ -1,6 +1,6 @@
 uuid: 02bf989e-7734-48f3-8d3c-b9af497b6448
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -11,7 +11,7 @@ _core:
 id: bootstrap_help
 theme: bootstrap
 region: help
-weight: -30
+weight: -7
 provider: null
 plugin: help_block
 settings:
