@@ -1,0 +1,26 @@
+uuid: 865f2287-e359-4072-a1fe-62b162ccf8fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_work_location1
+    - node.type.attendance
+id: node.attendance.field_work_location1
+field_name: field_work_location1
+entity_type: node
+bundle: attendance
+label: 'Work Location1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: employee_work_location
+      display_name: entity_reference_1
+      arguments:
+        - '1'
+field_type: entity_reference

@@ -20,5 +20,6 @@ content:
     region: content
 hidden:
   field_add_employee: true
+  field_login_location: true
   field_work_location: true
   scheduled_publication: true

@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.attendance.field_login_location
+    - field.field.node.attendance.field_work_location
+    - field.field.node.attendance.field_work_location1
     - node.type.attendance
   module:
     - geolocation
@@ -17,6 +19,21 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: geolocation_html5
+    region: content
+  field_work_location:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_work_location1:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   title:
     type: string_textfield

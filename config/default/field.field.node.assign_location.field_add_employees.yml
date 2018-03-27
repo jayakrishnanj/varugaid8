@@ -22,10 +22,11 @@ settings:
     filter:
       type: role
       role:
+        administrator: administrator
         field_engineer: field_engineer
         work_charged: work_charged
-        administrator: '0'
         field_officer: '0'
+        api_provider: '0'
     target_bundles: null
     sort:
       field: _none
